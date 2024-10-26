@@ -10,7 +10,6 @@ api = HfApi()
 
 # Define the model path and Hugging Face repository ID
 model_path = "model.pkl"  # Path to your model file
-repo_id = "your_username/your_model_repo"  # Your Hugging Face repo
 
 # Get the current directory of this script
 current_dir = os.path.dirname(os.path.abspath(__file__))

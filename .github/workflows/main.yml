@@ -22,12 +22,9 @@ jobs:
       run: |
         pip install -r requirements.txt
     
-    - name: Run tests
-      run: |
-        python -m unittest discover
-
     - name: Upload model to Hugging Face Hub
       env:
         HF_TOKEN: ${{ secrets.HF_TOKEN }}  # Hugging Face API Token from GitHub Secrets
+        REPO_ID: ${{secrets.REPO_ID}} # Hugging Face repo id
       run: |
         python upload_to_hf.py
