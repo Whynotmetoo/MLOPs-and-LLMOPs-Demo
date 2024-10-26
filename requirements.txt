@@ -1,0 +1,5 @@
+scikit-learn
+joblib
+dvc
+huggingface_hub
+pandas
