@@ -15,7 +15,7 @@ Before starting with this project, ensure you have the following installed and c
 
 3. **VSCode**(recommended)
 
-5. **Hugging Face Hub Account and API Token**
+5. **Sign up for Hugging Face Hub Account
    - Sign up at [huggingface.co](https://huggingface.co/)
 
 6. **GitHub Account**
