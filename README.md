@@ -55,3 +55,4 @@ python train_model.py
     - Save the token as a **GitHub Secret** named `HF_TOKEN` and the repo id named `REPO_ID` in your GitHub repository for secure access during deployment. Go the **setting > Actions secrets and variables > Actions** to add your Repository secrets
 ### 7. push you code
 push you code to github and check the pipeline
+test
